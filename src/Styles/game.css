@@ -1,0 +1,82 @@
+.gameContainer {
+  display: flex;
+}
+
+.controller {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  justify-content: center;
+}
+
+.item {
+  height: auto;
+  width: auto;
+  border: 2px solid #fff;
+  border-radius: 1.5em;
+  margin: 2% 2%;
+  color: #333;
+}
+
+.item-center {
+  flex-grow: 1; /* Set the middle element to grow and stretch */
+}
+
+.item + .item {
+  margin-left: 2%;
+}
+
+.player {
+  background-color: lightgreen;
+  padding: 2% 0%;
+  border-radius: 1.5em;
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  justify-content: space-around;
+}
+
+td {
+  border: 1px solid #fff;
+  text-align: center;
+  padding:2em;
+  border-radius: 1.5em;
+  font-size:  1.5em;
+}
+
+td:hover {
+  border: 3px solid grey;
+  box-shadow:2px 2px 20px 0px gainsboro;
+  border-radius: 2em;
+}
+
+table {
+  width: 100%;
+}
+
+
+.table_wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 30%;
+  justify-content: center;
+}
+
+button {
+  background-color: skyblue;
+  border: 1px solid grey;
+  border-radius: 1em;
+  color: #333;
+  font-weight: bold;
+  height: 4em;
+  width: 15em;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.turn {
+  border: 3px solid grey;
+  box-shadow:2px 2px 20px 0px gainsboro;
+  border-radius: 2em;
+}
+
