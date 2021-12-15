@@ -35,9 +35,9 @@ export default function Game() {
 
   const bindSymbol = (row, column) => {
     if (board[row][column] === 0) {
-      return <span>&#x2717;</span>;
+      return <>&#x2717;</>;
     } else if (board[row][column] === 1) {
-      return <span>O</span>;
+      return <>O</>;
     }
   };
 
