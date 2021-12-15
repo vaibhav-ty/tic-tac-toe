@@ -1,12 +1,9 @@
-import React, { useEffect, useContext } from "react";
+import React, { useContext } from "react";
 import ControllerContext from "../Context/Context";
 import "../Styles/game.css";
 
 export default function Board() {
   const gameContext = useContext(ControllerContext);
-  useEffect(() => {
-    console.log("Board rendered");
-  }, []);
   return (
     <div className="item table_wrapper">
       <table>

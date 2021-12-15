@@ -24,7 +24,7 @@ export default function Game() {
         setWinner(player);
         let scr = { ...score };
         scr[player] = scr[player] + 1;
-        debugger;
+        //debugger;
         setScore(scr);
         setDisableBoard(true);
       } else {
