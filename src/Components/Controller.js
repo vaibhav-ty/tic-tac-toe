@@ -6,7 +6,7 @@ export default function Controller() {
   return (
     <>
       <button onClick={() => gameContext.newGame()}>New Game</button>
-      <button>Reset Scores</button>
+      <button onClick={() => gameContext.resetScores()}>Reset Scores</button>
     </>
   );
 }

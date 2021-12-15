@@ -45,9 +45,8 @@ td {
 }
 
 td:hover {
-  border: 3px solid grey;
-  box-shadow:2px 2px 20px 0px gainsboro;
-  border-radius: 2em;
+  border: 1px solid grey;
+  cursor: pointer;
 }
 
 table {

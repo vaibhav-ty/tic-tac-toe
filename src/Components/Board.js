@@ -12,7 +12,7 @@ export default function Board() {
       <table>
         <tbody>
           <tr>
-            <td onClick={() => gameContext.handleClick(0, 0)}>
+            <td disabled={true} onClick={() => gameContext.handleClick(0, 0)}>
               {gameContext.bindSymbol(0, 0)}
             </td>
             <td onClick={() => gameContext.handleClick(0, 1)}>
